@@ -1,5 +1,5 @@
-﻿const CACHE = 'tro-ly-ai-v3';
-const FILES = ['./', './index.html', './manifest.json', './icon.svg'];
+﻿const CACHE = 'tro-ly-ai-v4';
+const FILES = ['./', './index.html', './manifest.json', './icon.svg', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)));

@@ -1,14 +1,37 @@
 {
-  "name": "Trợ lý AI giọng nói",
-  "short_name": "Trợ lý AI",
-  "description": "Trợ lý AI trò chuyện bằng giọng nói tiếng Việt cho marketing và công việc hàng ngày",
-  "start_url": "./index.html",
-  "display": "standalone",
-  "orientation": "portrait",
-  "background_color": "#0f172a",
-  "theme_color": "#0f172a",
-  "lang": "vi",
-  "icons": [
-    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
-  ]
+    "name":  "Trợ lý AI giọng nói",
+    "short_name":  "Trợ lý AI",
+    "description":  "Trợ lý AI trò chuyện bằng giọng nói tiếng Việt cho marketing và công việc hàng ngày",
+    "start_url":  "./index.html",
+    "display":  "standalone",
+    "orientation":  "portrait",
+    "background_color":  "#0f172a",
+    "theme_color":  "#0f172a",
+    "lang":  "vi",
+    "icons":  [
+                  {
+                      "src":  "icon-192.png",
+                      "sizes":  "192x192",
+                      "type":  "image/png",
+                      "purpose":  "any"
+                  },
+                  {
+                      "src":  "icon-512.png",
+                      "sizes":  "512x512",
+                      "type":  "image/png",
+                      "purpose":  "any"
+                  },
+                  {
+                      "src":  "icon-512.png",
+                      "sizes":  "512x512",
+                      "type":  "image/png",
+                      "purpose":  "maskable"
+                  },
+                  {
+                      "src":  "icon.svg",
+                      "sizes":  "any",
+                      "type":  "image/svg+xml",
+                      "purpose":  "any"
+                  }
+              ]
 }
