@@ -1,4 +1,4 @@
-const CACHE = 'tro-ly-ai-v2';
+﻿const CACHE = 'tro-ly-ai-v3';
 const FILES = ['./', './index.html', './manifest.json', './icon.svg'];
 
 self.addEventListener('install', e => {
